@@ -1,2 +1,2 @@
 # image-processing
-Various image processing pipelines.
+Detect NMJ area using HRP channel, then derive mean intensity values, and then finally count spots using big-fish v0.4.0. Expected data is 16-bit TIFF images of with dimensions ZCXY, located in the subdirectory called "inputs". Most parameters are configurable at the top of the script file. Outputs are written to a subdirectory called "outputs", which will be created if it doesn't exist already.
